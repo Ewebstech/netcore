@@ -30,3 +30,8 @@
 /home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/netcoreproject.dll
 /home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/netcoreproject.pdb
 /home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/netcoreproject.csproj.CopyComplete
+/home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/Razor/Views/Employee/Create.g.cshtml.cs
+/home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/Razor/Views/Employee/Delete.g.cshtml.cs
+/home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/Razor/Views/Employee/Details.g.cshtml.cs
+/home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/Razor/Views/Employee/Edit.g.cshtml.cs
+/home/emmanuel/Trials/netcoreproject/obj/Debug/netcoreapp2.1/Razor/Views/Employee/Index.g.cshtml.cs

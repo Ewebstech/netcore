@@ -10,7 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using netcoreproject.EmpDataContext;
+using netcoreproject.Models;
+
+
 namespace netcoreproject
 {
     public class Startup
@@ -34,7 +36,8 @@ namespace netcoreproject
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<AppDataContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Default")));
+            services.AddDbContext<STAFFDBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Default")));
+            //services.AddDbContext<>(options => options.UseSqlite("Data Source=STAFFDB.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
